@@ -1,0 +1,23 @@
+# Git Ignore for Sarovar SmartStay
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+target/
+backend/target/
+
+# IDE & OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment & local secrets
+.env
+.env.local
